@@ -11,12 +11,9 @@ export default function Header() {
         <FaFire style={{ color: '#fb923c', fontSize: 24 }} />
       </div>
       <p style={{ color: '#6b7280', fontSize: 15, maxWidth: 480, margin: '8px auto 0' }}>
-        Swipe right to save a professor, swipe left to skip, or hit ⭐ for a top pick.
+        Hit the heart to save a professor, hit the X to skip, or hit ⭐ for a top pick and add to your wishlist.
       </p>
       <div className="flex justify-center gap-8 mt-4" style={{ color: '#4b5563', fontSize: 13 }}>
-        <span>👈 Skip</span>
-        <span>⭐ Top Pick</span>
-        <span>👉 Save</span>
       </div>
     </div>
   )

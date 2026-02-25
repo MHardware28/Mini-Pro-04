@@ -9,12 +9,9 @@ export default function Footer() {
         <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, color: '#570df8' }}>ProfSwipe</span>
         <span>—</span>
         <span style={{ fontSize: 14 }}>
-          Made with <FaHeart style={{ display: 'inline', color: '#f87272', fontSize: 12 }} /> for students everywhere
+          Made for students everywhere
         </span>
       </div>
-      <p style={{ color: '#374151', fontSize: 12, margin: 0 }}>
-        Data is fictional and for demonstration purposes only.
-      </p>
     </footer>
   )
 }

@@ -44,9 +44,8 @@ export default function FilterBar({ professors, filters, onChange }) {
       </div>
 
       <select style={selectStyle} value={filters.sortBy} onChange={e => update('sortBy', e.target.value)}>
-        <option value="rating">⭐ Highest Rated</option>
-        <option value="difficulty_asc">😌 Easiest First</option>
-        <option value="name">🔤 Name A–Z</option>
+        <option value="rating">Highest Rated</option>
+        <option value="name">Name A–Z</option>
       </select>
     </div>
   )
