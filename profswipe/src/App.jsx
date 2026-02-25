@@ -15,8 +15,14 @@ export default function App() {
   const [professors, setProfessors] = useState([])
   const [filtered, setFiltered] = useState([])
   const [loading, setLoading] = useState(true)
-  const [saved, setSaved] = useState([])
-  const [reviewed, setReviewed] = useState([])
+  const [saved, setSaved] = useState(() => {
+  const stored = localStorage.getItem('profswipe-saved')
+  return stored ? JSON.parse(stored) : []
+})
+const [reviewed, setReviewed] = useState(() => {
+  const stored = localStorage.getItem('profswipe-reviewed')
+  return stored ? JSON.parse(stored) : []
+})
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [reviewedOpen, setReviewedOpen] = useState(false)
   const [filters, setFilters] = useState({
@@ -51,6 +57,14 @@ export default function App() {
     else if (filters.sortBy === 'name') result.sort((a, b) => a.name.localeCompare(b.name))
     setFiltered(result)
   }, [professors, filters])
+
+  useEffect(() => {
+    localStorage.setItem('profswipe-saved', JSON.stringify(saved))
+  }, [saved])
+
+  useEffect(() => {
+    localStorage.setItem('profswipe-reviewed', JSON.stringify(reviewed))
+  }, [reviewed])
 
   const handleSave = (prof) => setSaved(prev => prev.find(p => p.id === prof.id) ? prev : [...prev, prof])
   const handleUnsave = (id) => setSaved(prev => prev.filter(p => p.id !== id))
