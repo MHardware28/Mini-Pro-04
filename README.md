@@ -52,18 +52,31 @@ profswipe/
 │   │   ├── Navbar.jsx
 
 │   │   ├── Header.jsx
+
 │   │   ├── FilterBar.jsx
+
 │   │   ├── SwipeStack.jsx
+
 │   │   ├── ProfCard.jsx
+
 │   │   ├── SavedDrawer.jsx
+
 │   │   ├── ReviewedList.jsx
+
 │   │   ├── Loader.jsx
+
 │   │   └── Footer.jsx
+
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 │   └── index.css
+
 ├── index.html
+
 ├── vite.config.js   ← Tailwind v4 uses vite plugin (no postcss.config needed)
+
 └── package.json
 
 ## How to Run Locally
@@ -97,6 +110,7 @@ This project was built by:
 Rich-Ann Campbell
 MacKayla Hardware
 Sara-Lee Brown
+
 
 
 
