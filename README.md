@@ -1,8 +1,10 @@
 ﻿# Mini-pro-04
  This project is a swipe-style professor rating application built with React. The main idea is similar to a Tinder swipe interface where users can swipe on professor cards to indicate whether they like or dislike them. The app uses components, React state, and side-effects to manage and display swipeable data.
 
-The live version of the app is deployed at:
+## The live version of the app is deployed at:
+
 graceful-dusk-05f473.netlify.app
+
 
 ## What the App Does
 
@@ -95,6 +97,7 @@ Sara-Lee Brown
 MacKayla Hardware
 
 Rich-Ann Campbell
+
 
 
 
