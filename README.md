@@ -2,7 +2,7 @@
  This project is a swipe-style professor rating application built with React. The main idea is similar to a Tinder swipe interface where users can swipe on professor cards to indicate whether they like or dislike them. The app uses components, React state, and side-effects to manage and display swipeable data.
 
 The live version of the app is deployed at:
-https://profswiper.netlify.app/
+(https://adorable-youtiao-713401.netlify.app/)
 
 ## What the App Does
 
@@ -80,4 +80,5 @@ Sara-Lee Brown
 MacKayla Hardware
 
 Rich-Ann Campbell
+
 
