@@ -2,7 +2,7 @@
  This project is a swipe-style professor rating application built with React. The main idea is similar to a Tinder swipe interface where users can swipe on professor cards to indicate whether they like or dislike them. The app uses components, React state, and side-effects to manage and display swipeable data.
 
 The live version of the app is deployed at:
-https://professors-713401.netlify.app/
+graceful-dusk-05f473.netlify.app
 
 ## What the App Does
 
@@ -38,13 +38,26 @@ Project Structure
 
 ## A simplified structure of the project:
 
-Mini-pro-04/
-├── profswipe/         # Main React app folder
-├── public/            # Static assets
-├── src/               # Source code (components, hooks, styles)
-├── package.json       # Dependencies and scripts
-├── README.md          # This documentation
-
+profswipe/
+├── public/
+│   └── professors.json
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Header.jsx
+│   │   ├── FilterBar.jsx
+│   │   ├── SwipeStack.jsx
+│   │   ├── ProfCard.jsx
+│   │   ├── SavedDrawer.jsx
+│   │   ├── ReviewedList.jsx
+│   │   ├── Loader.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── vite.config.js   ← Tailwind v4 uses vite plugin (no postcss.config needed)
+└── package.json
 
 ## How to Run Locally
 
@@ -71,6 +84,8 @@ Simple user interface built using reusable React components.
 
 Uses React hooks for dynamic behavior and side effects.
 
+
+
 ## Contributors
 
 This project was built by:
@@ -80,6 +95,7 @@ Sara-Lee Brown
 MacKayla Hardware
 
 Rich-Ann Campbell
+
 
 
 
