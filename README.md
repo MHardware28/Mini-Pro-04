@@ -10,15 +10,14 @@ graceful-dusk-05f473.netlify.app
 
 Displays a list of professors or professor cards.
 
-Users can swipe right to like or left to dislike.
+Users can click heart, X or star to remove or like.
 
 Ratings are recorded in the application’s state.
 
 When all professors have been swiped, the app shows results or ends the session.
 
-The interface is built to feel intuitive and interactive through swiping.
 
-Technologies Used
+
 
 ## This app was built using:
 
@@ -63,7 +62,6 @@ profswipe/
 
 ## How to Run Locally
 
-Clone the repository:
 
 git clone https://github.com/MHardware28/Mini-pro-04.git
 
@@ -78,7 +76,6 @@ Start the development server:
 npm start
 Features
 
-Swipe left or right to interact.
 
 Tracks and updates state based on user actions.
 
@@ -91,12 +88,14 @@ Uses React hooks for dynamic behavior and side effects.
 ## Contributors
 
 This project was built by:
-
+Rich-Ann Campbell
+MacKayla Hardware
 Sara-Lee Brown
 
-MacKayla Hardware
 
-Rich-Ann Campbell
+
+
+
 
 
 
