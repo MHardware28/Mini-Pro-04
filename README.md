@@ -40,11 +40,17 @@ Project Structure
 ## A simplified structure of the project:
 
 profswipe/
+
 ├── public/
+
 │   └── professors.json
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── Navbar.jsx
+
 │   │   ├── Header.jsx
 │   │   ├── FilterBar.jsx
 │   │   ├── SwipeStack.jsx
@@ -91,6 +97,7 @@ This project was built by:
 Rich-Ann Campbell
 MacKayla Hardware
 Sara-Lee Brown
+
 
 
 
